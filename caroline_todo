@@ -1,23 +1,35 @@
+%--------------------------------------------------------------------------
+initial questions
+%--------------------------------------------------------------------------
+why is a-sio2 fractal dimension 2.7? how do you measure fractal dimension 
+of a structure? this will help figure out how to measure it for an 
+atomistic structure.
 
+what does a-sio2 accumulation look like?
 
-why is a-sio2 fractal dimension 2.7? how do you measure fractal dimension of a structure? this will help figure out how to 
-measure it for an atomistic structure? what does a-sio2 accumulation look like?
-
-
+%--------------------------------------------------------------------------
 paper comments
+%--------------------------------------------------------------------------
+"We apply a simple-cubic sine-type dispersion to confined acoustic 
+vibrations to approximate vibrational dispersion due to the tetrahedral 
+orientation of bonds in certain dielectric materials."
 
-"We apply a simple-cubic sine-type dispersion to confined acoustic vibrations to approximate
-vibrational dispersion due to the tetrahedral orientation of bonds in certain dielectric materials."
+First, I'm not sure you need to assume a simple-cubic crystal type to 
+use a sine-type dispersion. For example, a sine-type dispersion describes 
+a 1-D monatomic chain. I would just say simple sine-type, or something 
+like that.
 
-First, I'm not sure you need to assume a simple-cubic crystal type to use a sine-type dispersion. For example, a sine-type 
-dispersion describes a 1-D monatomic chain. I would just say simple sine-type, or something like that.
-
-Why is a simple-cubic sine-type dispersion used "due to" the tetrahedrally-coordinated materials? I think  
-that the psuedo dispersion of amorphous materials has been shown to follow a simple sine-type, at least at 
-low-freq/low-wavenumber.  Examples are a-Si and a-SiO2. The pseudo-dispersion can be more complicated at large wavenumber, 
+Why is a simple-cubic sine-type dispersion used "due to" the 
+tetrahedrally-coordinated materials? I think  that the psuedo dispersion 
+of amorphous materials has been shown to follow a simple sine-type, at 
+least at low-freq/low-wavenumber.  Examples are a-Si and a-SiO2. The 
+pseudo-dispersion can be more complicated at large wavenumber, 
 as you can see from Fig. 3 of my amorphous draft.
 
-orbach fracton model
+
+%--------------------------------------------------------------------------
+digression: orbach fracton model
+%--------------------------------------------------------------------------
 
 "That the introduction of vibrational
 anharmonicity allows for thermal trans-
@@ -27,19 +39,21 @@ tures, anharmonicity serves to reduce
 heat flow, in disordered structures anhar-
 monicity is the cause of heat flow."
 
-This is an interesting comment that deserves attention. 
+This is an interesting comment about anharmponicity that deserves 
+alot of attention. 
 
-Allen-Feldman claim that harmonic scattering is adequate to explain the features of T(K) 
-for thin film a-Si which does NOT show the plateau in T(K) < 10 K. Are you familiar with this? 
-
+Allen-Feldman claim that harmonic scattering is adequate to explain the 
+features of T(K) for thin film a-Si which does NOT show the plateau in 
+T(K) < 10 K. Are you familiar with this?
+\cite{feldman_thermal_1993,feldman_numerical_1999}:
 
 "The intrinsic broadening due to disorder is strong enough to suppress
-thermal conductivity to the level seen experimentally, with no need for special anharmonic effects or local-
-ization, except for the influence of two-level systems on the modes at very low frequencies."
+thermal conductivity to the level seen experimentally, with no need for 
+special anharmonic effects or localization, except for the influence of 
+two-level systems on the modes at very low frequencies."
 
-Here is their conclusion after using a diffusivitiy scaling D \propto \omega^{-2}:
-
-
+Here is their conclusion after using a diffusivitiy scaling 
+$D \propto \omega^{-2}$:
 
 "The conclusion is that intrinsic harmonic glassy disorder
 contained in our finite calculation kills off the heat-carrying
@@ -51,15 +65,24 @@ The plateau disappears from their data in much the same way
 that it disappears from our theory due to extra damping of
 small-Q propagons."
 
-They explain T(K) for a-Si which DOES show the plateau by using a Rayleigh scaling D \propto \omega^{-4}: 
-
-\cite{feldman_thermal_1993}:
+They explain T(K) for a-Si which DOES show the plateau by using a 
+Rayleigh scaling $D \propto \omega^{-4}$:\cite{feldman_thermal_1993}
 
 "The harmonic diffusivity becomes a Rayleigh m
 law
-and gives a divergent ~(T) as T~O. To eliminate this we make the standard assumption of resonant-
-plus-relaxational absorption from two-level systems (this is an anharmonic effect which would lie outside
+and gives a divergent ~(T) as T~O. To eliminate this we make the standard 
+assumption of resonant-plus-relaxational absorption from two-level systems 
+(this is an anharmonic effect which would lie outside
 our model even if it did contain two-level systems implicitly)."
+
+So, depending on whether u see the plateau in T(K), the low-freq 
+scaling of the diffusivities is in question. 
+
+Furthermore, the effect of anharmonicity is not clear, so it is hard 
+to judge whether what the fracton model says is true.  The AF theory 
+seems to be able to describe both situations for a-Si (plateau and 
+no plateua) with only a harmonic theory. This will be an important 
+topic when you bring it up in the group meeting presentation.
 
 
 
