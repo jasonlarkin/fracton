@@ -1,6 +1,5 @@
 
 
-
 why is a-sio2 fractal dimension 2.7? how do you measure fractal dimension of a structure? this will help figure out how to 
 measure it for an atomistic structure? what does a-sio2 accumulation look like?
 
@@ -17,4 +16,50 @@ Why is a simple-cubic sine-type dispersion used "due to" the tetrahedrally-coord
 that the psuedo dispersion of amorphous materials has been shown to follow a simple sine-type, at least at 
 low-freq/low-wavenumber.  Examples are a-Si and a-SiO2. The pseudo-dispersion can be more complicated at large wavenumber, 
 as you can see from Fig. 3 of my amorphous draft.
+
+orbach fracton model
+
+"That the introduction of vibrational
+anharmonicity allows for thermal trans-
+port is an interesting feature of random
+structures. Whereas in ordered struc-
+tures, anharmonicity serves to reduce
+heat flow, in disordered structures anhar-
+monicity is the cause of heat flow."
+
+This is an interesting comment that deserves attention. 
+
+Allen-Feldman claim that harmonic scattering is adequate to explain the features of T(K) 
+for thin film a-Si which does NOT show the plateau in T(K) < 10 K. Are you familiar with this? 
+
+
+"The intrinsic broadening due to disorder is strong enough to suppress
+thermal conductivity to the level seen experimentally, with no need for special anharmonic effects or local-
+ization, except for the influence of two-level systems on the modes at very low frequencies."
+
+Here is their conclusion after using a diffusivitiy scaling D \propto \omega^{-2}:
+
+
+
+"The conclusion is that intrinsic harmonic glassy disorder
+contained in our finite calculation kills off the heat-carrying
+ability of propagons rapidly enough without invoking any
+exotic mechanism. Our ␬ (T) curve is reminiscent of the ex-
+periments of Zaitlin and Anderson after holes are introduced
+to enhance the elastic damping of long-wavelength modes.
+The plateau disappears from their data in much the same way
+that it disappears from our theory due to extra damping of
+small-Q propagons."
+
+They explain T(K) for a-Si which DOES show the plateau by using a Rayleigh scaling D \propto \omega^{-4}: 
+
+\cite{feldman_thermal_1993}:
+
+"The harmonic diffusivity becomes a Rayleigh m
+law
+and gives a divergent ~(T) as T~O. To eliminate this we make the standard assumption of resonant-
+plus-relaxational absorption from two-level systems (this is an anharmonic effect which would lie outside
+our model even if it did contain two-level systems implicitly)."
+
+
 
