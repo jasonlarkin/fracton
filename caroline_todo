@@ -28,8 +28,20 @@ as you can see from Fig. 3 of my amorphous draft.
 
 
 %--------------------------------------------------------------------------
-digression: orbach fracton model
+\section{ongoing discussion}
 %--------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------
+\section{buchneau soft potential model}
+%--------------------------------------------------------------------------
+\cite{buchneau_interaction_1992}
+
+%--------------------------------------------------------------------------
+\section{orbach fracton model}
+%--------------------------------------------------------------------------
+
+Based on your reference to the fracton model, 
+I am reading \cite{orbach_phonon_1993}:
 
 "That the introduction of vibrational
 anharmonicity allows for thermal trans-
@@ -44,8 +56,8 @@ alot of attention.
 
 Allen-Feldman claim that harmonic scattering is adequate to explain the 
 features of T(K) for thin film a-Si which does NOT show the plateau in 
-T(K) < 10 K. Are you familiar with this?
-\cite{feldman_thermal_1993,feldman_numerical_1999}:
+T(K) < 10 K:
+\cite{feldman_numerical_1999}:
 
 "The intrinsic broadening due to disorder is strong enough to suppress
 thermal conductivity to the level seen experimentally, with no need for 
@@ -75,14 +87,28 @@ assumption of resonant-plus-relaxational absorption from two-level systems
 (this is an anharmonic effect which would lie outside
 our model even if it did contain two-level systems implicitly)."
 
-So, depending on whether u see the plateau in T(K), the low-freq 
-scaling of the diffusivities is in question. 
+The low-freq scaling of the diffusivities Depending on whether 
+u see the plateau in T(K), at least according to AF. 
 
-Furthermore, the effect of anharmonicity is not clear, so it is hard 
+The effect of anharmonicity is introduced by AF when using 
+the Rayleigh type scaling, so it is hard 
 to judge whether what the fracton model says is true.  The AF theory 
 seems to be able to describe both situations for a-Si (plateau and 
-no plateua) with only a harmonic theory. This will be an important 
+no plateua). This will be an important 
 topic when you bring it up in the group meeting presentation.
+
+orbach:
+
+"Experimentally, Eq. (2)accounts for
+the increase in n(T) for temperatures
+above the plateau for many amorphous
+and glassy materials (see Fig. 1)."
+
+This is explained by AF theory as a specific heat effect of the mid-range 
+and high-freq modes.  Again, these two theories are explaining the 
+same feature in 2 different ways, so you should focus on these features. 
+
+%--------------------------------------------------------------------------
 
 
 
