@@ -1,3 +1,20 @@
-why is a-sio2 fractal dimension 2.7? how do you measure fractal dimension of a structure? this will help figure out how to measure it for an atomistic structure?
-what does a-sio2 accumulation look like?
-.
+
+
+
+why is a-sio2 fractal dimension 2.7? how do you measure fractal dimension of a structure? this will help figure out how to 
+measure it for an atomistic structure? what does a-sio2 accumulation look like?
+
+
+paper comments
+
+"We apply a simple-cubic sine-type dispersion to confined acoustic vibrations to approximate
+vibrational dispersion due to the tetrahedral orientation of bonds in certain dielectric materials."
+
+First, I'm not sure you need to assume a simple-cubic crystal type to use a sine-type dispersion. For example, a sine-type 
+dispersion describes a 1-D monatomic chain. I would just say simple sine-type, or something like that.
+
+Why is a simple-cubic sine-type dispersion used "due to" the tetrahedrally-coordinated materials? I think  
+that the psuedo dispersion of amorphous materials has been shown to follow a simple sine-type, at least at 
+low-freq/low-wavenumber.  Examples are a-Si and a-SiO2. The pseudo-dispersion can be more complicated at large wavenumber, 
+as you can see from Fig. 3 of my amorphous draft.
+
