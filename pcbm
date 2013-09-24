@@ -1,0 +1,16 @@
+short-term
+
+1) c60 interface conductance in lammps
+
+2) c60 GK predictions in lammps: finished for 1x1x1 and 2x2x2. No differences.
+
+3) Allen-Feldman diffusivity prediction for c60 in gulp
+
+longer-term
+
+1) pcbm isolated molecule stability in lammps
+
+2) pcbm crystalline stability in lammps
+
+3) AF calculations in gulp
+
